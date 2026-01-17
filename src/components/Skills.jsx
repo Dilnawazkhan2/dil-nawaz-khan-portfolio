@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaWordpress, FaShopify, FaWix, FaNodeJs, FaGithub, FaAws, FaDatabase } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaWordpress, FaShopify, FaWix, FaNodeJs, FaGithub, FaAws } from "react-icons/fa";
 import { SiNextdotjs, SiTailwindcss, SiExpress, SiMongodb, SiJoomla } from "react-icons/si";
 
 const skillCategories = [
