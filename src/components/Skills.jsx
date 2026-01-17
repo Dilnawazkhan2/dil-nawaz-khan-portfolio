@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaWordpress, FaShopify, FaWix, FaNodeJs, FaGithub, FaAws } from "react-icons/fa";
-import { SiNextdotjs, SiTailwindcss, SiExpress, SiMongodb, SiJoomla } from "react-icons/si";
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaWordpress, FaNodeJs, FaGithub } from "react-icons/fa";
+import { SiNextdotjs, SiTailwindcss, SiExpress, SiMongodb, SiJoomla, SiWix, SiShopify, SiAmazonwebservices } from "react-icons/si";
 
 const skillCategories = [
   {
@@ -18,8 +18,8 @@ const skillCategories = [
     title: "CMS & E-commerce",
     skills: [
       { name: "WordPress", icon: <FaWordpress /> },
-      { name: "Shopify", icon: <FaShopify /> },
-      { name: "Wix", icon: <FaWix /> },
+      { name: "Shopify", icon: <SiShopify /> },
+      { name: "Wix", icon: <SiWix /> },
       { name: "Joomla", icon: <SiJoomla /> },
     ],
   },
@@ -30,7 +30,7 @@ const skillCategories = [
       { name: "Express", icon: <SiExpress /> },
       { name: "MongoDB", icon: <SiMongodb /> },
       { name: "Git & GitHub", icon: <FaGithub /> },
-      { name: "AWS Basics", icon: <FaAws /> },
+      { name: "AWS Basics", icon: <SiAmazonwebservices /> },
     ],
   },
 ];
