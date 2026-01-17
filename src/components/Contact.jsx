@@ -19,7 +19,7 @@ export default function Contact() {
           <motion.div
             initial={{ x: -30, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
-            viewport={{ once: true }}
+            viewport={{ once: true }} 
             transition={{ delay: 0.2 }}
             className="bg-white/30 dark:bg-white/5 backdrop-blur-xl border border-white/20 dark:border-white/10 p-8 rounded-2xl shadow-xl flex flex-col justify-between"
           >
